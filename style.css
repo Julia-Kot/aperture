@@ -72,11 +72,13 @@ header nav ul li:last-of-type a{
 .hero{
     display: flex;
     justify-content: space-between;
-    background-size: cover;
-    background-image: url(images/heroimg.jpeg);
-    background: linear-gradient(0deg,rgba(0, 0, 0, 0.0) 98.53%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    /* background-image: url(images/heroimg.jpeg); */
+    background: linear-gradient(0deg, #000 18.78%, rgba(0, 0, 0, 0.00) 98.53%), url(images/heroimg.jpeg), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
     height: 90vh;
-    width: auto;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
     padding-top: 466px;
     box-sizing: border-box;
 
